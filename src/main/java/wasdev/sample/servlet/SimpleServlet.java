@@ -21,8 +21,8 @@ public class SimpleServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
-        response.getWriter().print("<h1><font color=green>Surprise!</font></h1>"
-                                   + "It works.");
+        response.getWriter().print("<body background-color='black'><h1><font color=green>Surprise!</font></h1>"
+                                   + "It works." + "<img src='http://connorworkman.com/img/sample_rate_changes.gif'></body>");
     }
 
 }
