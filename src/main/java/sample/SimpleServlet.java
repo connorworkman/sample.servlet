@@ -1,4 +1,4 @@
-package connorworkman.sample.servlet;
+package sample.servlet;
 
 import java.io.IOException;
 
